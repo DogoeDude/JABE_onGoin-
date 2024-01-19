@@ -1,0 +1,99 @@
+h1, h2, p{
+    text-align: center;
+}
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background-color: burlywood;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 40px;
+}
+.menu{
+    width: 300px;
+    background-color: burlywood;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    max-width: 500px;
+}
+.flavor,.dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+}
+.item p {
+    display: inline-block;
+    width: 50%;
+    margin-top: 8px;
+}
+
+.fontItem{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.established{
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 30px;
+}
+
+.foot{
+    text-align: center;
+    margin-bottom: 3px;
+}
+hr{
+    height:2px;
+    background-color:black;
+    border: black;
+    border-width: 1px;
+}
+.titlescreen{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bottomline{
+    margin-top: 50px;
+}
+/*Footer*/
+footer{
+    font-size: 10px;
+}
+
+a{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:brown;
+}
+a:active{
+    color:brown;
+}
+.title{
+    margin-top: 0px;
+}
+img{
+    display: block;
+    margin-top: -8px;
+    margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
